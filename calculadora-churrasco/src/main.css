@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blueviolet;
+    font-family: 'Roboto', sans-serif;
+}
+
+header h5 {
+    font-size: 18px;
+    text-align:  center;
+    margin: 20px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-family: 'Merienda', cursive;
+}
+
+.secao_grupo {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.secao_grupo label {
+    text-align: left;
+    width: 200px;
+    padding: 0.7rem 0.5rem;
+    margin-top: 10px;
+    background-color: #ecddf3;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.secao_grupo input {
+    width: 70px;
+    text-align: right;
+    height: 42px;
+    padding: 0.7rem 0.5rem;
+    margin-top: 10px;
+    border: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.acompanhamentos {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+button {
+    border: none;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 0.5rem 0 10px 75px;
+}
+
+.resposta label {
+    margin-left: 10px;
+}
